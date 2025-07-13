@@ -14,7 +14,7 @@ def generate_password(length, use_uppercase, use_digits, use_symbols):
     Returns:
         str: The generated password, or an error message if no character types are selected.
     """
-    characters = string.ascii_lowercase # Start with lowercase letters by default
+    characters = string.ascii_lowercase
 
     if use_uppercase:
         characters += string.ascii_uppercase
